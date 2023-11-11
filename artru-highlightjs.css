@@ -1,0 +1,67 @@
+.artru-content code {
+    font-size: var(--fsize-code);
+    color: var(--color-1);
+    background-color: var(--color-bg2);
+    padding: 2px 5px;
+    border-radius: 6px;
+    word-break: break-all;
+  }
+  
+  .artru-content pre {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    padding: 25px 0px 0px 15px;
+    background-color: #1e1e1e;
+  }
+  
+  .artru-content pre code {
+    font-size: var(--fsize-code2);
+    background-color: #1e1e1e;
+    line-height: 1.5;
+    max-height: 60vh;
+    tab-size: 3;
+    white-space: pre;
+    padding: 0px 10px 25px 0px !important;
+    overflow-x: auto;
+  }
+  
+  .artru-content .hljs-ln-numbers {
+    position: sticky;
+    left: 0;
+    color: var(--color-bg2);
+    background-color: #1e1e1e;
+    padding: 0px 10px;
+    border-bottom: dotted 1px #303030;
+  }
+  
+  .artru-content .hljs-ln-numbers::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 2px;
+    background-color: var(--color-bg2);
+  }
+  
+  .artru-content .hljs-ln-code {
+    padding-left: 10px;
+    border-bottom: dotted 1px #303030;
+    width: 100%;
+  }
+  
+  .artru-content .hljs-copy-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: var(--fsize-code2);
+    background-color: black;
+    color: var(--color-1);
+    border: 2px solid gray;
+    border-radius: 0px 10px 0px 10px;
+    padding: 2px 5px;
+  }
+  
+  .artru-content .hljs-copy-alert {
+    display: none;
+  }
